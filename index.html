@@ -24,60 +24,62 @@
     <div id="articleDiv">
         </div>
 
-    <body>
-            <div style="background: black !important"class="jumbotron">
-                <div class="container">
-                <div id="employee">
-                Employee Data Management</div>
-                <h3>A Comprehensive Directory of Employee Billable Hours</h3>
+        <body>
+            <button id="search" data-article="generate">Search</button>
+            <div id="articleDiv">
                 </div>
-                </div>
-        
-                <br>
-        
-        <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1"><i class="fas fa-calendar-alt"></i>&nbsp;Search Parameters</label>
+            <body>
+                    <div style="background:#001f3f !important"class="jumbotron">
+                        <div class="container">
+                        <h1 class="display-4">
+                        <i class="far fa-newspaper"></i>&nbsp;New York Times Search</h1>
+                        </div>
+                        </div>
                 
-        </div>
-          <div class="form-group">
-            <label for="search">Search Term:</label>
-            <input type="" class="form-control" id="searchTerm">
-          </div>
-        
-          <div class="form-group">
-            <label for="records">Number of Records to Retrieve:</label>
-            <input type="" class="form-control" id="recordsRetrieve">
-          </div>
-        
-          <div class="form-group">
-            <label for="start">Start Year (Optional):</label>
-            <input type="" class="form-control" id="startYear">
-          </div>
-        
-          <label for="end">End Year (Optional):</label>
-          <input type="" class="form-control" id="endYear">
-         
-        </div>
-        <div class="form-group form-check">
-         
-          <br>
-          <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i>&nbsp;Search</button>
-          <button type="submit" class="btn btn-primary"><i class="fas fa-trash-alt"></i>&nbsp;Clear Results</button>
-        </form>
-        
-        <br><br>
-        
-        <div class="form-group">
-                <label for="top"><i class="fas fa-th"></i>&nbsp;</i>Top Articles</label>
-                <input type="articles" class="form-control" id="topArticles">
-            </div>
-        
-        <footer>
-            <div id="footerDiv">
-            Made with lots and lots of <i class="fas fa-heart"></i>
-            </div>
-        </footer>
+                        <br>
+                
+                <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Add employee</label>
+                        
+                </div>
+                  <div class="form-group">
+                    <label for="employee">Employee</label>
+                    <input type="" class="form-control" id="searchTerm">
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="role">Role</label>
+                    <input type="" class="form-control" id="recordsRetrieve">
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="start">Start Date (MM/DD/YYYY)</label>
+                    <input type="" class="form-control" id="startYear">
+                  </div>
+                
+                  <label for="monthlyRate">Monthly Rate</label>
+                  <input type="" class="form-control" id="endYear">
+                 
+                </div>
+                <div class="form-group form-check">
+                 
+                  <br>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+                <br><br>
+                
+                <div class="form-group">
+                        <label for="top"><i class="fas fa-th"></i>&nbsp;</i>Top Articles</label>
+                        <input type="articles" class="form-control" id="topArticles">
+                    </div>
+                
+                <footer>
+                    <div id="footerDiv">
+                    Made with lots and lots of <i class="fas fa-heart"></i>
+                    </div>
+                </footer>
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
